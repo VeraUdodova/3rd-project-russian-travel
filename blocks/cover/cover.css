@@ -1,0 +1,18 @@
+.cover{
+    max-width: 1184px;
+    max-height: 740px;
+    left: 48px;
+    top: 6001px;
+}
+
+.cover__overlay{
+    z-index: 0;
+}
+
+.cover__title{
+    z-index: 1;
+}
+
+.cover__subtitle{
+    z-index: 1;
+}

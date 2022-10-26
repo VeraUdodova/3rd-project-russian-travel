@@ -1,0 +1,16 @@
+.header{
+}
+
+.header_logo{
+    /*top: 28px;*/
+    /*left: 48px;*/
+}
+
+.header__lang-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__lang-link:hover{
+    text-decoration: underline;
+}
