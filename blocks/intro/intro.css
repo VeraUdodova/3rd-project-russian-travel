@@ -1,15 +1,15 @@
 .intro{
     width: 690px;
     height: 429px;
-    top: 1233px;
+    /*top: 1233px;*/
     margin: 0 442px 92px 148px;
 }
 
 .intro__title{
     width: 690px;
     height: 58px;
-    left: 148px;
-    top: 1233px;
+    /*left: 148px;*/
+    /*top: 1233px;*/
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -20,8 +20,8 @@
 .intro__text{
     width: 690px;
     height: 208px;
-    left: 148px;
-    top: 1331px;
+    /*left: 148px;*/
+    /*top: 1331px;*/
 
     font-style: normal;
     font-weight: 400;
@@ -33,8 +33,8 @@
 .intro__list{
     width: 690px;
     height: 90px;
-    left: 148px;
-    top: 1572px;
+    /*left: 148px;*/
+    /*top: 1572px;*/
 
     font-style: normal;
     font-weight: 700;

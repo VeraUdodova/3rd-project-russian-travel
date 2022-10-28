@@ -1,18 +1,66 @@
 .cover{
+    position: relative;
+    display: flex;
     max-width: 1184px;
     max-height: 740px;
-    left: 48px;
-    top: 6001px;
+    /*left: 48px;*/
+    /*top: 6001px;*/
+
 }
 
 .cover__overlay{
+    max-width: 1184px;
+    max-height: 740px;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__background{
     z-index: 0;
+    max-width: 1184px;
+    max-height: 740px;
 }
 
 .cover__title{
+    position: absolute;
     z-index: 1;
+    width: 560px;
+    top: 245px;
+    right: 312px;
+    bottom: 343px;
+    left: 312px;
+    /*opacity: 1;*/
+    height: 152px;
+    /*left: 360px;*/
+    /*top: 6246px;*/
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+
+    text-align: center;
 }
 
 .cover__subtitle{
+    position: absolute;
     z-index: 1;
+    width: 360px;
+    top: 429px;
+    right: 414px;
+    bottom: 426px;
+    left: 312px;
+    /*height: 95px;*/
+    /*left: 460px;*/
+    /*top: 6430px;*/
+
+    /*font-family: 'Inter';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: center;
 }
