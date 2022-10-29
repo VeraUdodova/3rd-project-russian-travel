@@ -4,11 +4,12 @@
 
 .place{
     margin-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .place__title{
     max-width: 460px;
-    /*height: 152px;*/
+    height: 152px;
     /*left: 148px;*/
     /*top: 2517px;*/
 
@@ -21,7 +22,7 @@
 
 .place__url-heading{
     max-width: 456px;
-    /*height: 12px;*/
+    height: 12px;
     /*left: 648px;*/
     /*top: 2623px;*/
 
@@ -36,7 +37,7 @@
 
 .place__link{
     max-width: 456px;
-    /*height: 22px;*/
+    height: 22px;
     /*left: 648px;*/
     /*top: 2647px;*/
 
@@ -52,7 +53,7 @@
 
 .place__paragraph{
     max-width: 484px;
-    /*height: 145px;*/
+    height: 145px;
     /*left: 648px;*/
     /*top: 2717px;*/
 

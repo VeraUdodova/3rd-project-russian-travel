@@ -44,13 +44,14 @@
 }
 
 .cover__subtitle{
+    margin-top: 32px;
     position: absolute;
     z-index: 1;
     width: 360px;
     top: 429px;
     right: 414px;
-    bottom: 426px;
-    left: 312px;
+    bottom: 216px;
+    left: 426px;
     /*height: 95px;*/
     /*left: 460px;*/
     /*top: 6430px;*/
