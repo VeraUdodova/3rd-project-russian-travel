@@ -1,0 +1,15 @@
+.logo_place_header {
+    background-image: url("../../../images/header-logo.svg");
+    z-index: 1;
+    width: 176px;
+    height: 52px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo_place_header {
+        width: 142px;
+        height: 42px;
+        background-size: cover;
+    }
+}
