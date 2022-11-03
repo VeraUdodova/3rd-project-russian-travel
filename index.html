@@ -10,7 +10,7 @@
 
 <!--выбор языка, лого-->
 <!--TODO убрать картинку в бэкграунд-->
-<body class="body">
+<body class="page">
 <header class="header">
 <!--    <img class="logo_place_header" src="./images/header-logo.svg" alt="лого">-->
     <div class="logo_place_header"></div>
@@ -20,6 +20,7 @@
     </div>
 </header>
 <!--Главная-->
+<main class="content page__content">
 <section class="lead">
     <h1 class="lead__title">Путешествия по России</h1>
     <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь</p>
@@ -40,11 +41,11 @@
         взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали
         и описали некоторые интересные места, достойные вашего отпуска.</p>
     <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class="span">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span class="span">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class="span">16</span></li>
+        <li>Природных заповедников <span class="span">105</span></li>
+        <li>Аэропортов <span class="span">241</span></li>
     </ul>
 </section>
 
@@ -144,24 +145,25 @@
 </section>
 
 <!--Обложка, финальное фото-->
-<section class="cover">
-    <div class="cover__overlay">
-        <img class="cover__background" src="images/cover-trains.jpg" alt="ж\д вокзал">
-    </div>
+<section class="cover content__section">
+    <a class="cover__link" href="#" target="_blank">
     <h2 class="cover__title">До Байкала «на собаках»</h2>
     <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
         электричках.</p>
+    </a>
 </section>
-</body>
+</main>
 
-<!--Подвал-->
-<footer class="footer">
-    <nav>
-        <a class="footer__link" href="#">Карты</a>
-        <a class="footer__link" href="#">Погода</a>
-        <a class="footer__link" href="#">Расписание</a>
-        <a class="footer__link" href="#">Календарь</a>
-        <a class="footer__link" href="#">Путешествия</a>
-    </nav>
-    <p class="footer__copyright">&copy; Вера Удодова</p>
-</footer>
+<!--&lt;!&ndash;Подвал&ndash;&gt;-->
+<!--<footer class="footer">-->
+<!--    <nav>-->
+<!--        <a class="footer__link" href="#">Карты</a>-->
+<!--        <a class="footer__link" href="#">Погода</a>-->
+<!--        <a class="footer__link" href="#">Расписание</a>-->
+<!--        <a class="footer__link" href="#">Календарь</a>-->
+<!--        <a class="footer__link" href="#">Путешествия</a>-->
+<!--    </nav>-->
+<!--    <p class="footer__copyright">&copy; Вера Удодова</p>-->
+<!--</footer>-->
+</body>
+</html>
