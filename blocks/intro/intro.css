@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 1124px) {
     .intro {
+        max-width: 720px;
         padding: 0 286px 92px 48px;
     }
 }
@@ -18,6 +19,7 @@
 
 @media screen and (max-width: 568px) {
     .intro {
+        max-width: 288px;
         padding: 0 16px 64px 16px;
     }
 }
