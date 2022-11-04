@@ -1,45 +1,28 @@
-.lead{
+.lead {
+    font-family: 'Inter', Arial, sans-serif;
     max-width: 100%;
     min-height: 1005px;
-    padding: 56px 148px 0 148px;
+    padding: 56px 148px 0;
 }
 
 @media screen and (max-width: 1124px) {
     .lead {
         min-height: 962px;
-        padding: 48px 48px 92px 48px;
+        padding: 48px 48px 0;
     }
 }
 
 @media screen and (max-width: 984px) {
     .lead {
         min-height: 862px;
-        padding: 48px 0 88px;
+        padding: 48px 0 0;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .lead{
+    .lead {
         min-height: 406px;
-        padding: 48px 2px 64px 8px;
+        padding: 48px 0 0;
     }
 }
 
-
-
-
-
-/*@media screen and (max-width: 1280px) {*/
-/*    .header__lang-link {*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 1024px) {*/
-/*    .header__lang-link {*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 768px) {*/
-/*    .header__lang-link {*/
-/*    }*/
-/*}*/

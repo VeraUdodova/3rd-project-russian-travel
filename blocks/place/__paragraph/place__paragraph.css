@@ -1,4 +1,4 @@
-.place__paragraph{
+.place__paragraph {
     margin: 0;
     padding: 0;
     max-width: 484px;
@@ -9,8 +9,8 @@
     /* or 29px */
 }
 
-@media screen and (max-width: 984px){
-    .place__paragraph{
+@media screen and (max-width: 984px) {
+    .place__paragraph {
         font-size: 16px;
     }
 }

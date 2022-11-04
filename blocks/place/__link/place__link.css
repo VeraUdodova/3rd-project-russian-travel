@@ -1,4 +1,6 @@
-.place__link{
+.place__link {
+    margin: 0;
+    padding: 0;
     max-width: 456px;
     height: 22px;
     font-style: normal;
@@ -9,3 +11,4 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
