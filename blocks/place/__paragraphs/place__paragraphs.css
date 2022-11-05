@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 600px) {
     .place__paragraphs {
         max-width: 288px;
         grid-column-start: 1;

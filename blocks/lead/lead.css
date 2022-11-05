@@ -2,27 +2,28 @@
     font-family: 'Inter', Arial, sans-serif;
     max-width: 100%;
     min-height: 1005px;
-    padding: 56px 148px 0;
+    padding: 0 148px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1124px) {
     .lead {
         min-height: 962px;
-        padding: 48px 48px 0;
+        padding: 0 48px;
     }
 }
 
 @media screen and (max-width: 984px) {
     .lead {
         min-height: 862px;
-        padding: 48px 0 0;
+        padding: 0;
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 600px) {
     .lead {
         min-height: 406px;
-        padding: 48px 0 0;
+        padding: 0;
     }
 }
 
