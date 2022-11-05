@@ -1,6 +1,6 @@
 .place__website {
     display: flex;
-    max-width: 456px;
+
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
